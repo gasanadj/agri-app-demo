@@ -9,8 +9,8 @@ import mboga
 import kabeji
 import muhogo
 def Kiswahili() :
-    print("Karibu sana agri-app")
-    print("Je, wewe ni  mkulima wa aina gani?")
+    print("Karibu sana Agri-app")
+    print("Je, wewe ni mkulima wa aina gani?")
     print("Je, wewe ni mkulima wa aina gani?") 
     print("1. Mkulima wa kiwango cha juu")
     print("2. Mkulima wa kiwango cha chini")
@@ -45,7 +45,7 @@ def Kiswahili() :
         elif (mmea == 4):
             ndizi.ndizi()
     elif (mkulima == 3):
-        print("Umechagua mkulima wa kawaida/ kujikimu")
+        print("Umechagua mkulima wa kawaida/kujikimu")
         print("1. mboga(sukumawiki)")
         print("2. kabeji")
         print("3. muhogo")
