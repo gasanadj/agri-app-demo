@@ -8,6 +8,8 @@ import Potatoes
 import Beans
 import Maize
 import Banana
+import crop3_list
+import crop3
 def english():
     farmer.farmers()
     farmer_choice = int(input("Enter choice of Farmer: "))
@@ -31,6 +33,16 @@ def english():
             Maize.maize()
         elif (crop_choice == 4):
             Banana.banana()
+    elif (farmer_choice == 3):
+        crop3_list.subsistence()
+        crop_choice = int(input("Enter crop choice "))
+        if (crop_choice == 1):
+            crop3.cabbage()
+        elif (crop_choice == 2):
+            crop3.cassava()
+        elif (crop_choice == 3):
+            crop3.greens()
+
 
 
         
