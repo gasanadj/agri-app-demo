@@ -51,7 +51,7 @@ def Kiswahili() :
         print("3. muhogo")
         mmea = int(input("Chagua nambari kulingana na mmea utakao: "))
         if (mmea == 1) :
-            mboga.mboga()
+            mboga.sukumawiki()
         elif (mmea == 2) :
             kabeji.kabeji()
         elif (mmea == 3) :

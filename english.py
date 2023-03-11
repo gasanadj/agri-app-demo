@@ -1,4 +1,3 @@
-import language
 import farmer
 import crops
 import rice
@@ -9,9 +8,7 @@ import Potatoes
 import Beans
 import Maize
 import Banana
-language.language()
-choice = int(input("Select choice of language: "))
-if (choice == 1):
+def english():
     farmer.farmers()
     farmer_choice = int(input("Enter choice of Farmer: "))
     if (farmer_choice == 1) :
